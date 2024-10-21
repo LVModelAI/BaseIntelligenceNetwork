@@ -1,0 +1,12 @@
+@keyframes radar-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.radar-sweep {
+    background: conic-gradient(from 0deg, rgba(0, 255, 0, 0.4), rgba(0, 255, 0, 0));
+    animation: radar-spin 2s linear infinite;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "coinbase";
+    font-style: normal;
+    src: url("/fonts/CoinbaseText.ttf") format("truetype");
+}
+
+.coinbase {
+    font-family: "coinbase";
+}
